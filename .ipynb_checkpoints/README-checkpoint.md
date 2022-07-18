@@ -19,6 +19,10 @@ I will try to define each concept and give examples of the function(s) used in P
 
 ### Daily Returns
 
+A daily return of a stock compares the previous day's closing price with today's closing price, and turning that difference into a percentage. If this percentage is positive then the stock has grown in value, if negative the stock has declined in value. By calculating the daily returns as a percentage we can compare stocks and portfolios on an equal footing.
+
+When using Pandas we can use the .pct_change() function on a Data Frame without having to do the calculations ourselves.
+
 ### Cumulative Returns
 
 ### Standard Deviation
